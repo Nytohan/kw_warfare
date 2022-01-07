@@ -1,8 +1,8 @@
 <form class="{{#if sheet.config}}kw-warfare-config{{/if}}
 	{{#if editable}}kw-organization-editable{{/if}}" autocomplete="off">
 	<div class="kw-sheet-container">
-		<div class="kw-typeicon" title="{{unit.type}}">
-			<img alt="{{unit.type}}" src="{{unit.type_icon}}"/>
+		<div class='kw-tokenicon'>
+			<img class='sheet-profile' alt="{{unit.type}}" src="{{actor.token.img}}"/>
 		</div>
 		<div class="kw-ancestryicon" title="{{unit.ancestry}}">
 			<img alt="{{unit.ancestry}}" src="{{unit.ancestry_icon}}"/>
